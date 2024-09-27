@@ -59,6 +59,10 @@
   color: #fff;
   padding: 0 20px;
   font-size: 14px;
+  z-index: 100;
+}
+.menu-bar .mobile-menu {
+  display: none;
 }
 .menu-bar .left ul.menus {
   height: 100%;
@@ -67,6 +71,10 @@
 .menu-bar .left ul.menus .active {
   font-weight: bold;
 }
+.menu-bar .left ul.menus .menu-apple img {
+  width: 15px;
+  height: 100%;
+}
 .menu-bar .right .menu-time {
   font-weight: 500;
 }
@@ -74,7 +82,7 @@
 .topbar {
   width: 100%;
   height: 50px;
-  background: #393838;
+  background: #393838 !important;
   padding: 10px 15px;
   border-radius: 16px 16px 0 0;
 }
@@ -128,14 +136,13 @@
   transform: translateX(-50%);
   padding: 0 5px;
 }
-
-li.menu-icon {
+#dock li.menu-icon {
   width: auto;
   height: 100%;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
-li.menu-icon .tooltip {
+#dock li.menu-icon .tooltip {
   visibility: hidden;
   width: 120px;
   bottom: 120%;
@@ -150,18 +157,18 @@ li.menu-icon .tooltip {
   transition: 0.5s all ease-in-out;
   z-index: 1;
 }
-li.menu-icon a.link-app {
+#dock li.menu-icon a.link-app {
   width: 100%;
   height: 100%;
 }
-li.menu-icon a.link-app img.img-app {
+#dock li.menu-icon a.link-app img.img-app {
   width: 100%;
   height: 100%;
   border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-li.menu-icon:hover .tooltip {
+#dock li.menu-icon:hover .tooltip {
   visibility: visible;
 }
 

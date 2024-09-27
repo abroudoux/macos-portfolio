@@ -11,13 +11,13 @@
   .date-hours {
     @extend .flex-col-center-center;
 
-    .date {
-      font-size: 2.5rem;
+    .title {
+      font-size: 2.25rem;
       font-weight: 600;
     }
 
-    .hours {
-      font-size: 9rem;
+    .name {
+      font-size: 7rem;
       margin-top: -2.5rem;
       font-weight: 700;
     }
@@ -26,7 +26,7 @@
   .connection {
     @extend .flex-col-center-center;
 
-    gap: 1rem;
+    gap: 1.25rem;
 
     img.profile-picture {
       width: 100px;
@@ -36,7 +36,8 @@
     }
 
     span.click {
-      font-size: 1.25rem;
+      margin-top: 1rem;
+      font-size: 1rem;
       font-weight: 600;
     }
   }

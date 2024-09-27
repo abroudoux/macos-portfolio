@@ -1,20 +1,11 @@
-.flex-col-center-center,
-#education-section,
-#contact-section,
-#about-section,
-.infos .connection,
-.infos .date-hours {
+.flex-col-center-center, #education-section, #contact-section, #about-section, .infos .connection, .infos .date-hours {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.flex-row-center-center,
-#dock,
-.menu-bar .right,
-.menu-bar .left ul.menus,
-.menu-bar .left {
+.flex-row-center-center, #dock, .menu-bar .right, .menu-bar .left ul.menus, .menu-bar .left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -28,32 +19,28 @@
   justify-content: start;
 }
 
-.flex-col-center-between,
-.infos {
+.flex-col-center-between, .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-row-start-start,
-.topbar {
+.flex-row-start-start, .topbar {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start,
-.topbar ul.topbar-actions {
+.flex-row-center-start, .topbar ul.topbar-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
-.flex-row-center-between,
-.menu-bar {
+.flex-row-center-between, .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -129,23 +116,14 @@ button {
   cursor: pointer;
 }
 
-.flex-col-center-center,
-#education-section,
-#contact-section,
-#about-section,
-.infos .connection,
-.infos .date-hours {
+.flex-col-center-center, #education-section, #contact-section, #about-section, .infos .connection, .infos .date-hours {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.flex-row-center-center,
-#dock,
-.menu-bar .right,
-.menu-bar .left ul.menus,
-.menu-bar .left {
+.flex-row-center-center, #dock, .menu-bar .right, .menu-bar .left ul.menus, .menu-bar .left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -159,32 +137,28 @@ button {
   justify-content: start;
 }
 
-.flex-col-center-between,
-.infos {
+.flex-col-center-between, .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-row-start-start,
-.topbar {
+.flex-row-start-start, .topbar {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start,
-.topbar ul.topbar-actions {
+.flex-row-center-start, .topbar ul.topbar-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
-.flex-row-center-between,
-.menu-bar {
+.flex-row-center-between, .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -197,17 +171,17 @@ button {
   padding: 3rem;
   color: #fff;
 }
-.infos .date-hours .date {
-  font-size: 2.5rem;
+.infos .date-hours .title {
+  font-size: 2.25rem;
   font-weight: 600;
 }
-.infos .date-hours .hours {
-  font-size: 9rem;
+.infos .date-hours .name {
+  font-size: 7rem;
   margin-top: -2.5rem;
   font-weight: 700;
 }
 .infos .connection {
-  gap: 1rem;
+  gap: 1.25rem;
 }
 .infos .connection img.profile-picture {
   width: 100px;
@@ -216,27 +190,19 @@ button {
   object-fit: cover;
 }
 .infos .connection span.click {
-  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
-.flex-col-center-center,
-#education-section,
-#contact-section,
-#about-section,
-.infos .date-hours,
-.infos .connection {
+.flex-col-center-center, #education-section, #contact-section, #about-section, .infos .date-hours, .infos .connection {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.flex-row-center-center,
-#dock,
-.menu-bar .right,
-.menu-bar .left ul.menus,
-.menu-bar .left {
+.flex-row-center-center, #dock, .menu-bar .right, .menu-bar .left ul.menus, .menu-bar .left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -250,32 +216,28 @@ button {
   justify-content: start;
 }
 
-.flex-col-center-between,
-.infos {
+.flex-col-center-between, .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-row-start-start,
-.topbar {
+.flex-row-start-start, .topbar {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start,
-.topbar ul.topbar-actions {
+.flex-row-center-start, .topbar ul.topbar-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
-.flex-row-center-between,
-.menu-bar {
+.flex-row-center-between, .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -311,7 +273,7 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   margin-top: 1rem;
-  gap: 20px;
+  gap: 15px;
   justify-items: center;
   align-items: center;
   margin-top: 20px;
@@ -324,23 +286,14 @@ button {
   transform: scale(1.1);
 }
 
-.flex-col-center-center,
-#education-section,
-#contact-section,
-.infos .date-hours,
-.infos .connection,
-#about-section {
+.flex-col-center-center, #education-section, #contact-section, .infos .date-hours, .infos .connection, #about-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.flex-row-center-center,
-#dock,
-.menu-bar .right,
-.menu-bar .left ul.menus,
-.menu-bar .left {
+.flex-row-center-center, #dock, .menu-bar .right, .menu-bar .left ul.menus, .menu-bar .left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -354,32 +307,28 @@ button {
   justify-content: start;
 }
 
-.flex-col-center-between,
-.infos {
+.flex-col-center-between, .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-row-start-start,
-.topbar {
+.flex-row-start-start, .topbar {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start,
-.topbar ul.topbar-actions {
+.flex-row-center-start, .topbar ul.topbar-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
-.flex-row-center-between,
-.menu-bar {
+.flex-row-center-between, .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -419,8 +368,8 @@ button {
   color: #fff;
   margin-bottom: 5px;
 }
-#contact-section .container input[type="text"],
-#contact-section .container input[type="email"],
+#contact-section .container input[type=text],
+#contact-section .container input[type=email],
 #contact-section .container textarea {
   width: 100%;
   padding: 10px;
@@ -431,8 +380,8 @@ button {
   color: #242322;
   transition: all 0.3s ease;
 }
-#contact-section .container input[type="text"]:focus,
-#contact-section .container input[type="email"]:focus,
+#contact-section .container input[type=text]:focus,
+#contact-section .container input[type=email]:focus,
 #contact-section .container textarea:focus {
   outline: none;
   border: 1px solid #fff;
@@ -457,23 +406,14 @@ button {
   background-color: rgb(0, 109.8, 229.5);
 }
 
-.flex-col-center-center,
-#education-section,
-.infos .date-hours,
-.infos .connection,
-#about-section,
-#contact-section {
+.flex-col-center-center, #education-section, .infos .date-hours, .infos .connection, #about-section, #contact-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.flex-row-center-center,
-#dock,
-.menu-bar .right,
-.menu-bar .left ul.menus,
-.menu-bar .left {
+.flex-row-center-center, #dock, .menu-bar .right, .menu-bar .left ul.menus, .menu-bar .left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -487,32 +427,28 @@ button {
   justify-content: start;
 }
 
-.flex-col-center-between,
-.infos {
+.flex-col-center-between, .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-row-start-start,
-.topbar {
+.flex-row-start-start, .topbar {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start,
-.topbar ul.topbar-actions {
+.flex-row-center-start, .topbar ul.topbar-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
-.flex-row-center-between,
-.menu-bar {
+.flex-row-center-between, .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -560,23 +496,14 @@ button {
   margin: 5px 0;
 }
 
-.flex-col-center-center,
-.infos .date-hours,
-.infos .connection,
-#about-section,
-#contact-section,
-#education-section {
+.flex-col-center-center, .infos .date-hours, .infos .connection, #about-section, #contact-section, #education-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.flex-row-center-center,
-#dock,
-.menu-bar .right,
-.menu-bar .left ul.menus,
-.menu-bar .left {
+.flex-row-center-center, #dock, .menu-bar .right, .menu-bar .left ul.menus, .menu-bar .left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -590,32 +517,28 @@ button {
   justify-content: start;
 }
 
-.flex-col-center-between,
-.infos {
+.flex-col-center-between, .infos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-.flex-row-start-start,
-.topbar {
+.flex-row-start-start, .topbar {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start,
-.topbar ul.topbar-actions {
+.flex-row-center-start, .topbar ul.topbar-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
-.flex-row-center-between,
-.menu-bar {
+.flex-row-center-between, .menu-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -634,6 +557,10 @@ button {
   color: #fff;
   padding: 0 20px;
   font-size: 14px;
+  z-index: 100;
+}
+.menu-bar .mobile-menu {
+  display: none;
 }
 .menu-bar .left ul.menus {
   height: 100%;
@@ -642,6 +569,10 @@ button {
 .menu-bar .left ul.menus .active {
   font-weight: bold;
 }
+.menu-bar .left ul.menus .menu-apple img {
+  width: 15px;
+  height: 100%;
+}
 .menu-bar .right .menu-time {
   font-weight: 500;
 }
@@ -649,7 +580,7 @@ button {
 .topbar {
   width: 100%;
   height: 50px;
-  background: #393838;
+  background: #393838 !important;
   padding: 10px 15px;
   border-radius: 16px 16px 0 0;
 }
@@ -703,14 +634,13 @@ button {
   transform: translateX(-50%);
   padding: 0 5px;
 }
-
-li.menu-icon {
+#dock li.menu-icon {
   width: auto;
   height: 100%;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
-li.menu-icon .tooltip {
+#dock li.menu-icon .tooltip {
   visibility: hidden;
   width: 120px;
   bottom: 120%;
@@ -725,18 +655,18 @@ li.menu-icon .tooltip {
   transition: 0.5s all ease-in-out;
   z-index: 1;
 }
-li.menu-icon a.link-app {
+#dock li.menu-icon a.link-app {
   width: 100%;
   height: 100%;
 }
-li.menu-icon a.link-app img.img-app {
+#dock li.menu-icon a.link-app img.img-app {
   width: 100%;
   height: 100%;
   border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-li.menu-icon:hover .tooltip {
+#dock li.menu-icon:hover .tooltip {
   visibility: visible;
 }
 
@@ -776,6 +706,149 @@ li.menu-icon:hover .tooltip {
 }
 .modal-close:hover {
   background-color: rgb(255, 46.4285714286, 36);
+}
+
+.flex-col-center-center, .infos .date-hours, .infos .connection, #about-section, #contact-section, #education-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-center-center, .menu-bar .left, .menu-bar .left ul.menus, .menu-bar .right, #dock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col-center-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.flex-col-center-between, .infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-row-start-start, .topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.flex-row-center-start, .topbar ul.topbar-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.flex-row-center-between, .menu-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1280px) {
+  .topbar {
+    z-index: 100;
+    background: none;
+  }
+  .menu-bar {
+    height: 35px;
+  }
+  .menu-bar .right,
+  .menu-bar .left {
+    display: none !important;
+  }
+  .menu-bar .mobile-menu {
+    width: 100%;
+    height: 100%;
+    padding: 0 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-bar .mobile-menu span {
+    font-family: 700;
+  }
+  .menu-bar .mobile-menu .mobile-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+  }
+  .menu-bar .mobile-menu .mobile-right img.mobile-menu-icon {
+    width: 30px;
+    height: 30px;
+  }
+  #dock {
+    width: 100dvw;
+    z-index: 50;
+    height: auto;
+    background: none;
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    padding-top: 2rem;
+    top: 2rem;
+    left: 0;
+    position: fixed;
+    transform: translateX(0);
+    bottom: auto;
+  }
+  #dock li.menu-icon {
+    width: 20dvw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #about-section {
+    width: 85dvw;
+    height: auto;
+    top: 50%;
+  }
+  #about-section .container {
+    padding: 20px;
+  }
+  #about-section .container p {
+    font-size: 1rem;
+  }
+  #about-section .container .tech-grid {
+    margin-top: 2rem;
+    gap: 15px;
+  }
+  #contact-section {
+    width: 85dvw;
+    height: 75dvh;
+  }
+  #cv-modal {
+    width: 85dvw;
+    height: 75dvh;
+  }
+  #education-section {
+    width: 85dvw;
+    height: 75dvh;
+  }
+  #education-section h2 {
+    font-size: 1.25rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,111 @@
+@import "_variables.scss";
+
+@media only screen and (max-width: 1280px) {
+  .topbar {
+    z-index: 100;
+    background: none;
+  }
+
+  .menu-bar {
+    height: 35px;
+
+    .right,
+    .left {
+      display: none !important;
+    }
+
+    .mobile-menu {
+      width: 100%;
+      height: 100%;
+      padding: 0 3vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      span {
+        font-family: 700;
+      }
+
+      .mobile-right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 100%;
+
+        img.mobile-menu-icon {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  #dock {
+    width: 100dvw;
+    z-index: 50;
+    height: auto;
+    background: none;
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    padding-top: 2rem;
+    top: 2rem;
+    left: 0;
+    position: fixed;
+    transform: translateX(0);
+    bottom: auto;
+
+    li.menu-icon {
+      width: 20dvw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  #about-section {
+    width: 85dvw;
+    height: auto;
+    top: 50%;
+
+    .container {
+      padding: 20px;
+
+      p {
+        font-size: 1rem;
+      }
+
+      .tech-grid {
+        margin-top: 2rem;
+        gap: 15px;
+      }
+    }
+  }
+
+  #contact-section {
+    width: 85dvw;
+    height: 75dvh;
+  }
+
+  #cv-modal {
+    width: 85dvw;
+    height: 75dvh;
+  }
+
+  #education-section {
+    width: 85dvw;
+    height: 75dvh;
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}
