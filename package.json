@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-html/css",
+  "author": "Arthur BROUDOUX",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch scss:css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.79.3"
+  }
+}

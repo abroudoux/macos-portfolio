@@ -1,0 +1,164 @@
+.flex-col-center-center, #contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-center-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col-center-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.flex-col-center-between {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-row-start-start, #contact-section .topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.flex-row-center-start, #contact-section .topbar ul.topbar-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.flex-row-center-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#background-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#contact-section {
+  width: 750px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #242322;
+  border-radius: 16px;
+  z-index: 1000;
+}
+#contact-section .topbar {
+  width: 100%;
+  height: 50px;
+  background: #393838;
+  padding: 10px 15px;
+  border-radius: 16px 16px 0 0;
+}
+#contact-section .topbar ul.topbar-actions {
+  gap: 5px;
+  width: auto;
+  height: 100%;
+}
+#contact-section .topbar ul.topbar-actions .topbar-action {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+#contact-section .topbar ul.topbar-actions .topbar-action.red {
+  background-color: #ff5f57;
+}
+#contact-section .topbar ul.topbar-actions .topbar-action.red:hover {
+  background-color: rgb(255, 70.7142857143, 61.5);
+}
+#contact-section .topbar ul.topbar-actions .topbar-action.yellow {
+  background-color: #febc2e;
+}
+#contact-section .topbar ul.topbar-actions .topbar-action.yellow:hover {
+  background-color: rgb(253.8785714286, 179.8642857143, 20.6214285714);
+}
+#contact-section .topbar ul.topbar-actions .topbar-action.green {
+  background-color: #2bc840;
+}
+#contact-section .topbar ul.topbar-actions .topbar-action.green:hover {
+  background-color: rgb(38.487654321, 179.012345679, 57.2839506173);
+}
+#contact-section .container {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  background-color: #242322;
+  padding: 20px;
+  border-radius: 12px;
+}
+#contact-section .container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+#contact-section .container .input-group {
+  margin-bottom: 15px;
+}
+#contact-section .container label {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+#contact-section .container input[type=text],
+#contact-section .container input[type=email],
+#contact-section .container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #242322;
+  transition: all 0.3s ease;
+}
+#contact-section .container input[type=text]:focus,
+#contact-section .container input[type=email]:focus,
+#contact-section .container textarea:focus {
+  outline: none;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+#contact-section .container textarea {
+  resize: none;
+}
+#contact-section .container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007aff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#contact-section .container button:hover {
+  background-color: rgb(0, 109.8, 229.5);
+}
+
+/*# sourceMappingURL=contact.css.map */

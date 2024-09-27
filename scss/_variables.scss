@@ -1,0 +1,58 @@
+$color-background: #242322;
+$color-background-secondary: #393838;
+$color-dock-background: rgba(83, 83, 83, 0.25);
+$color-dock-border: rgba(255, 255, 255, 0.18);
+$color-red: #ff5f57;
+$color-green: #2bc840;
+$color-yellow: #febc2e;
+$color-white: #fff;
+$color-primary: #007aff;
+
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-center-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col-center-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.flex-col-center-between {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-row-start-start {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.flex-row-center-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.flex-row-center-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
