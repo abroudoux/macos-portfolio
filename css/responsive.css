@@ -109,6 +109,13 @@
     align-items: center;
     justify-content: center;
   }
+  #dock li.menu-icon:hover {
+    transform: translateY(0);
+    transform: scale(1);
+  }
+  #dock li.menu-icon .tooltip {
+    display: none;
+  }
   #about-section {
     width: 85dvw;
     height: auto;
