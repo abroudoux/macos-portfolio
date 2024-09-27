@@ -39,6 +39,14 @@
   }
 }
 
+.background-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 #dock {
   @extend .flex-row-center-center;
 
@@ -62,6 +70,22 @@ li.menu-icon {
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 
+  .tooltip {
+    visibility: hidden;
+    width: 120px;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: $color-background;
+    color: $color-white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    transition: 0.5s all ease-in-out;
+    z-index: 1;
+  }
+
   a.link-app {
     width: 100%;
     height: 100%;
@@ -73,5 +97,50 @@ li.menu-icon {
       background-size: cover;
       background-repeat: no-repeat;
     }
+  }
+
+  &:hover .tooltip {
+    visibility: visible;
+  }
+}
+
+.menu-icon:hover .tooltip {
+  opacity: 1;
+}
+
+.modal-cv {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 80%;
+  border-radius: 16px;
+  box-shadow: 0 0 20px $color-background;
+  overflow: auto;
+  z-index: 1000;
+
+  embed {
+    border-radius: 16px;
+  }
+
+  &:target {
+    display: block;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: $color-red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: $color-white;
+
+  &:hover {
+    background-color: darken($color-red, 10%);
   }
 }

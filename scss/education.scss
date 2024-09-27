@@ -1,0 +1,99 @@
+@import "_variables.scss";
+
+#education-section {
+  @extend .flex-col-center-center;
+
+  color: $color-white;
+  width: 750px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: $color-background;
+  border-radius: 16px;
+  z-index: 1000;
+
+  .topbar {
+    @extend .flex-row-start-start;
+
+    width: 100%;
+    height: 50px;
+    background: $color-background-secondary;
+    padding: 10px 15px;
+    border-radius: 16px 16px 0 0;
+
+    ul.topbar-actions {
+      @extend .flex-row-center-start;
+
+      gap: 5px;
+      width: auto;
+      height: 100%;
+
+      .topbar-action {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+
+        &.red {
+          background-color: $color-red;
+
+          &:hover {
+            background-color: darken($color-red, 5%);
+          }
+        }
+
+        &.yellow {
+          background-color: $color-yellow;
+
+          &:hover {
+            background-color: darken($color-yellow, 5%);
+          }
+        }
+
+        &.green {
+          background-color: $color-green;
+
+          &:hover {
+            background-color: darken($color-green, 5%);
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    background-color: $color-background;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px $color-background;
+    width: 100%;
+    height: 100%;
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-align: left;
+    }
+
+    .education-timeline {
+      .timeline-item {
+        background-color: $color-background-secondary;
+        padding: 20px;
+        border-left: 4px solid $color-primary;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px r$color-background;
+
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        p {
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+}

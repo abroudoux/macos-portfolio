@@ -1,13 +1,5 @@
 @import "_variables.scss";
 
-#background-back {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
 #contact-section {
   @extend .flex-col-center-center;
 
