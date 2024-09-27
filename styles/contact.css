@@ -1,0 +1,149 @@
+:root {
+  --color-background: #242322;
+  --color-background-secondary: #393838;
+  --color-red: #ff5f57;
+  --color-green: #2bc840;
+  --color-yellow: #febc2e;
+  --color-white: #dedddd;
+  --color-primary: #007aff;
+}
+
+#background-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#contact-section {
+  width: 750px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--color-background);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 1000;
+
+  .topbar {
+    width: 100%;
+    height: 50px;
+    background: var(--color-background-secondary);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    padding: 10px 15px;
+    border-radius: 16px 16px 0 0;
+
+    ul.topbar-actions {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+      gap: 5px;
+      width: auto;
+      height: 100%;
+
+      .topbar-action {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+
+        &.red {
+          background-color: var(--color-red);
+
+          /* &:hover {
+            background-color: darken(var(--color-red), 5%);
+          } */
+        }
+
+        &.yellow {
+          background-color: var(--color-yellow);
+
+          /* &:hover {
+            background-color: darken(var(--color-yellow), 5%);
+          } */
+        }
+
+        &.green {
+          background-color: var(--color-green);
+
+          /* &:hover {
+            background-color: darken(var(--color-green), 5%);
+          } */
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    background-color: var(--color-background);
+    padding: 20px;
+    border-radius: 12px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: var(--color-white);
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-size: 14px;
+      color: var(--color-white);
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--color-white);
+      border-radius: 8px;
+      background-color: var(--color-white);
+      font-size: 16px;
+      color: var(--color-background);
+      transition: all 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      outline: none;
+      border: 1px solid var(--color-white);
+      background-color: var(--color-white);
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: var(--color-primary);
+      border: none;
+      border-radius: 8px;
+      color: var(--color-white);
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  }
+}
