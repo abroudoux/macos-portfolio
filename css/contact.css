@@ -26,14 +26,14 @@
   justify-content: space-between;
 }
 
-.flex-row-start-start, #contact-section .topbar {
+.flex-row-start-start {
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: start;
 }
 
-.flex-row-center-start, #contact-section .topbar ul.topbar-actions {
+.flex-row-center-start {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -57,41 +57,6 @@
   background: #242322;
   border-radius: 16px;
   z-index: 1000;
-}
-#contact-section .topbar {
-  width: 100%;
-  height: 50px;
-  background: #393838;
-  padding: 10px 15px;
-  border-radius: 16px 16px 0 0;
-}
-#contact-section .topbar ul.topbar-actions {
-  gap: 5px;
-  width: auto;
-  height: 100%;
-}
-#contact-section .topbar ul.topbar-actions .topbar-action {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-#contact-section .topbar ul.topbar-actions .topbar-action.red {
-  background-color: #ff5f57;
-}
-#contact-section .topbar ul.topbar-actions .topbar-action.red:hover {
-  background-color: rgb(255, 70.7142857143, 61.5);
-}
-#contact-section .topbar ul.topbar-actions .topbar-action.yellow {
-  background-color: #febc2e;
-}
-#contact-section .topbar ul.topbar-actions .topbar-action.yellow:hover {
-  background-color: rgb(253.8785714286, 179.8642857143, 20.6214285714);
-}
-#contact-section .topbar ul.topbar-actions .topbar-action.green {
-  background-color: #2bc840;
-}
-#contact-section .topbar ul.topbar-actions .topbar-action.green:hover {
-  background-color: rgb(38.487654321, 179.012345679, 57.2839506173);
 }
 #contact-section .container {
   width: 100%;

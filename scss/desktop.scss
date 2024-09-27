@@ -39,6 +39,54 @@
   }
 }
 
+.topbar {
+  @extend .flex-row-start-start;
+
+  width: 100%;
+  height: 50px;
+  background: $color-background-secondary;
+  padding: 10px 15px;
+  border-radius: 16px 16px 0 0;
+
+  ul.topbar-actions {
+    @extend .flex-row-center-start;
+
+    gap: 5px;
+    width: auto;
+    height: 100%;
+
+    .topbar-action {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+
+      &.red {
+        background-color: $color-red;
+
+        &:hover {
+          background-color: darken($color-red, 5%);
+        }
+      }
+
+      &.yellow {
+        background-color: $color-yellow;
+
+        &:hover {
+          background-color: darken($color-yellow, 5%);
+        }
+      }
+
+      &.green {
+        background-color: $color-green;
+
+        &:hover {
+          background-color: darken($color-green, 5%);
+        }
+      }
+    }
+  }
+}
+
 .background-back {
   position: fixed;
   top: 0;
@@ -60,7 +108,6 @@
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  gap: 2.5px;
   padding: 0 5px;
 }
 

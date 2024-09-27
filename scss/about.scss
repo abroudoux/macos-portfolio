@@ -1,6 +1,6 @@
 @import "_variables.scss";
 
-#education-section {
+#about-section {
   @extend .flex-col-center-center;
 
   color: $color-white;
@@ -28,23 +28,22 @@
       text-align: left;
     }
 
-    .education-timeline {
-      .timeline-item {
-        background-color: $color-background-secondary;
-        padding: 20px;
-        border-left: 4px solid $color-primary;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px r$color-background;
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      margin-top: 1rem;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+      margin-top: 20px;
+    }
 
-        h3 {
-          font-size: 1.5rem;
-          margin-bottom: 10px;
-        }
+    .tech-logo {
+      max-width: 50px;
+      transition: transform 0.3s ease;
 
-        p {
-          margin: 5px 0;
-        }
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }
